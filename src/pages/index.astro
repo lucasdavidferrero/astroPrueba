@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro'
 import Showcase from '../components/Showcase.astro'
 import Features from '../components/Features.astro'
 import Tabs from '../components/Tabs.astro'
+import Counter from '../components/Counter.vue'
 ---
 <Layout>
 	<div>
@@ -30,6 +31,9 @@ import Tabs from '../components/Tabs.astro'
 				laborum impedit nesciunt ut voluptatum assumenda aspernatur libero
 				iusto error molestias dolorum, necessitatibus labore?
 			  </p>
+			  	<div>
+					<Counter client:load/>
+				</div>
 			</div>
 		</section>
 	</div>
